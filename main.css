@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.image-section{
+    float: left;
+    
+}   
+header{
+    height: 200px;
+    background-color: rgb(46, 46, 110);
+}
+#profile-pic{
+    height: 30%;
+    width: 30%;
+    margin: 20px;
+    border: solid 5px black;
+    border-radius: 50%;
+}
