@@ -1,19 +1,31 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.image-section{
+header {
+  height: 180px;
+  background-color: rgb(46, 46, 110);
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+.image-section {
+    padding-left: 4%;
+  float: left;
+  height: inherit;
+}
+
+#profile-pic {
+  height: 80%;
+  width: 80%;
+  margin: 10px;
+  border: solid 5px #e5f190;
+  border-radius: 50%;
+  object-fit : fill;
+}
+#name{
+    padding-top: 7%;
+    padding-left: 5%;
     float: left;
-    
-}   
-header{
-    height: 200px;
-    background-color: rgb(46, 46, 110);
-}
-#profile-pic{
-    height: 30%;
-    width: 30%;
-    margin: 20px;
-    border: solid 5px black;
-    border-radius: 50%;
+    font-size: 54px;
+    color: #fff;
 }
