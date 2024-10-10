@@ -31,6 +31,11 @@ header {
   font-size: medium;
   color: #ddd;
 }
+img{
+  width: 100%;
+  height: 100%;
+  object-fit:  cover;
+}
 .side-body {
   float: left;
   background-color: rgb(67, 101, 215);
@@ -41,7 +46,8 @@ header {
   padding: 10%;
 }
 .contact-list {
-  list-style-type: none;
+  /* list-style-type: none; */
+  list-style-position: inside;
 }
 .contact-list-elements {
   padding: 3%;
@@ -68,17 +74,34 @@ header {
 }
 .content-heading {
   text-align: center;
+  background-color: aqua;
+  margin-bottom: 2px;
 }
 .summary-box {
   width: auto;
-  padding: 10px;
+ 
 }
 .content-class{
   margin: 5px;
   padding-left: 30px;
   padding-right: 30px;
 }
+.stack{
+  padding-left: 20px;
+}
+.stack >span{
+  font-size: small;
+  font-style: italic;
+  padding: 4px;
+  font-weight: 500;
+}
+.school{
+  margin-bottom: 20px;
+}
 #hobby-section {
+  padding: 10%;
+}
+#skills-section{
   padding: 10%;
 }
 #user-info-list {
