@@ -2,14 +2,14 @@
   margin: 0;
   padding: 0;
 }
-body{
-  background-color: aliceblue;
+body {
+  background-color: #4365d7;
 }
 header {
   height: 180px;
   background-color: rgb(46, 46, 110);
-  border-top-right-radius: 20%;
-  border-bottom-left-radius: 20%;
+  /* border-top-right-radius: 20%; */
+  border-bottom-left-radius: 15%;
 }
 .image-section {
   padding-left: 4%;
@@ -20,38 +20,68 @@ header {
   height: inherit;
   width: inherit;
 }
-.user-info-section{
-    height: 43%;
-    width: inherit;
- }
+.user-info-section {
+  height: 43%;
+  width: inherit;
+}
 
-.user-info-list-elements{
+.user-info-list-elements {
   float: left;
   padding-right: 10px;
   font-size: medium;
   color: #ddd;
 }
-.side-body{
+.side-body {
   float: left;
-  background-color: red;
+  background-color: rgb(67, 101, 215);
   width: 25%;
   height: 500px;
 }
-.contact-section{
+.contact-section {
   padding: 10%;
 }
-.contact-list{
+.contact-list {
   list-style-type: none;
 }
-.icon-span{
+.contact-list-elements {
+  padding: 3%;
+}
+.hobby-list-elements {
+  padding: 3%;
+  margin-left: 14%;
+  color: #ddd;
+}
+.icon-span {
   padding: 5%;
 }
-.link-span{
+.link-span {
   padding: 1%;
   text-decoration: none;
   color: white;
 }
-#user-info-list{
+.content-body {
+  background-color: rgb(226, 235, 255);
+  float: left;
+  height: 500px;
+  width: 940px;
+  padding: 1px;
+}
+.content-heading {
+  text-align: center;
+}
+.summary-box {
+  width: auto;
+  padding: 10px;
+}
+.content-class{
+  margin: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#hobby-section {
+  padding: 10%;
+}
+#user-info-list {
   width: inherit;
   height: inherit;
   padding-left: 35%;
