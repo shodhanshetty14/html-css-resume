@@ -35,7 +35,7 @@ header {
   float: left;
   background-color: rgb(67, 101, 215);
   width: 25%;
-  height: 500px;
+  height: auto;
 }
 .contact-section {
   padding: 10%;
@@ -62,7 +62,7 @@ header {
 .content-body {
   background-color: rgb(226, 235, 255);
   float: left;
-  height: 500px;
+  height: auto;
   width: 940px;
   padding: 1px;
 }
